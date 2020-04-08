@@ -25,8 +25,8 @@ while True:
         max_digits_sum = digits_sum
         result_number = stable_a
 
-print(f'The number with highest sum of digits is {result_number}\n'
-      f'And this sum equals {max_digits_sum}')
+print(f'The number with highest sum of digits is {result_number}.\n'
+      f'And this sum equals {max_digits_sum}.')
 
 
 
