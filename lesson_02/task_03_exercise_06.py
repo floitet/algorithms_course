@@ -15,7 +15,6 @@ start = 0
 end = 100
 
 rand_comp = randint(0, 100)
-print(rand_comp)
 
 i = 0
 while i < 10:

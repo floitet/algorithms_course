@@ -1,11 +1,14 @@
-
+# Задание №8 из списка заданий.
+# Посчитать, сколько раз встречается определенная цифра в введенной последовательности чисел.
+# Количество вводимых чисел и цифра, которую необходимо посчитать, задаются вводом с клавиатуры.
 
 def count_digits(m, n):
     """
-    :param m: basically, it is a number of times the function will be raised
-    :param n: what number it will be looking for in the upcoming input
+    :param m: should be natural number. basically, it is a number of times the function will be raised
+    :param n: should be natural number. what number it will be looking for in the upcoming input
     """
     user_input = input('Type in any natural number.')
+
     m = int(m)
     n = str(n)
     if m == 1:
